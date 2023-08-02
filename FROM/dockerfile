@@ -1,0 +1,2 @@
+#FROM is the 1st instruction in docker file 
+FROM centos:8
