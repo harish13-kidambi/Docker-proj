@@ -2,4 +2,5 @@ FROM almalinux:8
 RUN yum update -y
 RUN yum install nginx -y
 #CMD run in the foregorund
-CMD ["nginx", "-g", "daemon off;" ]
+#CMD ["nginx", "-g", "daemon off;"]
+CMD ["sleep", "10"]
